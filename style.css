@@ -87,6 +87,9 @@ h3 {
 h3, h1 {
     margin-bottom: 0px;
 }
+h2 {
+    font-size: 30px;
+}
 
 @media (min-width: 450px), (min-width: 1000px) { /* tablet & laptop */
     header {
