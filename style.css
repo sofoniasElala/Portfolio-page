@@ -5,9 +5,9 @@
 
 body {
     position: relative;
-    background-color: #606C38;
+    background-color: #000000;
     text-align: center;
-    color: #fffefe;
+    color: #ae2012;
     font-family: Oswald;
 }
 
@@ -18,7 +18,8 @@ section {
 header > h1 {
     position: absolute;
     top: 12px;
-    animation: name-reveal 1.5s .3s ease-in-out alternate 2;
+    animation: name-reveal 2s .3s ease-in-out 1;
+    color: #fffefe;
 }
 
 @keyframes name-reveal {
@@ -42,6 +43,7 @@ article {
     margin-bottom: 50px;
     width: 375px;
     overflow: hidden;
+    border-style: solid;
 }
 
 .project-buttons {
@@ -59,7 +61,18 @@ h4, .project-buttons {
 }
 
 hr {
-    margin: 0px 40px;
+    margin: 0px 50%;
+    animation: draw-line 1.5s ease-in-out 1 forwards;
+}
+
+@keyframes draw-line {
+    from {
+        margin: 0px 50%;
+    }
+
+    to {
+        margin: 0px 5%;
+    }
 }
 
 p {
@@ -81,7 +94,7 @@ header img, article {
 h3 {
     margin: 18px 20px;
     text-align: left;
-    color: #648600;
+    color: #c1121f;
 }
 
 h3, h1 {
@@ -99,10 +112,7 @@ h2 {
         border-radius: 10px;
         overflow: hidden;
     }
-    header section, header p {
-        background-color: #ffffff;
-        color: #687078;
-    }
+    
     header img {
         border-radius: 0px;
     }
@@ -115,16 +125,16 @@ h2 {
     }
 
     p {
-        font-size: 23px;
+        font-size: 21px;
     }
     header > h1 {
         top: -1px;
     }
     h1, h2 {
-        font-size: 35px;
+        font-size: 33px;
     }
     h3, h4 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .project-buttons img {
