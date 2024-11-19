@@ -142,6 +142,12 @@ h2 {
         width: 24px;
     }
 }
+.technologies {
+    text-align: start;
+    display: flex;
+    gap: 14px;
+    padding: 0px 5px 8px 20px;
+}
 
 @media (min-width: 1000px) { /* laptop */
     .cards {
